@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recovery Phrase</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1 class="title">Your Recovery Phrase</h1>
+  <p class="subtitle">Write down these 12 words in order. Never share them.</p>
+
+  <!-- TEXTAREA VERSION -->
+  <textarea id="seedTextarea" class="textarea" readonly></textarea>
+
+  <!-- GRID VERSION -->
+  <div id="seedGrid" class="seed-grid"></div>
+
+  <button id="copyBtn" class="btn">Copy Recovery Phrase</button>
+  <button class="btn-secondary" onclick="alert('Wallet Created Successfully!')">Continue</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
